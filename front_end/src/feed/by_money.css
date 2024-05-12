@@ -1,0 +1,47 @@
+.box1 img{
+    width: 100%;
+    height: 30%;
+}
+#back_color1{
+    background-color: #dde1e7;
+}
+.box1{
+    box-shadow: 0 0 3px gray;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .box2{
+    box-shadow: 0 0 3px gray;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+  }
+  .img_hight{
+    width: 100%;
+    height: 30%;
+  }
+  .next{
+    /* margin-top: 20px;
+    margin-bottom: 30px; */
+    border: none;
+    color: white;
+    background-color: #0b5291;
+    padding: 5px 20px;
+    border-radius: 20px;
+  }
+  /* input[name="date"] {
+    border: 1px solid red;
+  } */
+  .date_indicate input{
+    border: 1px solid red !important;
+  }
+  .error_msg{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: red;
+  }

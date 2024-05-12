@@ -1,0 +1,33 @@
+.icon1{
+    width: 40px;
+}
+.foot{
+    font-size: 15px;
+    color: rgb(107, 102, 102);
+}
+.color1{
+    color: #004E80;
+    text-decoration:underline
+}
+.font1{
+    font-size: 13px;
+}
+.no-underline a{
+    text-decoration: none !important;
+    color: rgb(107, 102, 102) !important;
+    padding: 10px 0;
+}
+.use{
+    font-size: 19px;
+    color: rgb(58, 53, 53);
+}
+#size{
+    width: 100px;
+}
+.color2{
+    color: rgb(46, 41, 41);
+    padding-right: 10px ;
+}
+.social{
+    margin: 20px 30px;
+}

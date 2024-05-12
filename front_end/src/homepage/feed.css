@@ -1,0 +1,93 @@
+#feed{
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    
+}
+.blue{
+    color: #024E92;
+}
+.blue::after{
+    content: '';
+    display: block;
+    margin: 4px auto;
+    width: 8%;
+    background: #4FB846 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    height: 4px;
+}
+
+.quote{
+    color: #4FB846;
+}
+.underline{
+    background-color: #4FB846;
+    width: 50px !important;
+    height: 5px;
+    justify-content: center !important;
+}
+#feed-width{
+    width: 90%;
+    /* height: 400px; */
+    /* border-radius: 50%; */
+    /* box-shadow: 0 0 3px 3px grey; */
+}
+#vector_img{
+    position: absolute;
+    left: 0;
+    bottom: 0;   
+}
+.relative{
+    position: relative;
+    background-color: #E2F4FF;
+
+}
+.feed-btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+    color: white;
+    background-color: #0b5291;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+.feed-btn:hover, .btn-2:hover{
+    color: rgb(153, 156, 158);
+}
+.position_rel{
+    position: relative;
+}
+.share_food{
+    position: absolute;
+    bottom: 11%;
+    left: 59%;
+    padding: 1%;
+}
+@media only screen and (max-width:768px){
+    .share_food{
+        position: absolute;
+        bottom: 5%;
+        left: 12%;
+        padding: 5%;
+        border-radius: 10%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .share_food{
+        position: absolute;
+        bottom: 3%;
+        left: 28%;
+        padding: 5%;
+        border-radius: 10%;
+    }
+}
+.btn-2{
+    box-shadow: 0 0 3px 2px gray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+    color: white;
+    background-color: #153448;
+    padding: 5px 20px;
+    border-radius: 20px;
+}

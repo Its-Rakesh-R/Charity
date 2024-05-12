@@ -1,0 +1,36 @@
+
+.domine{
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+@media only screen and (max-width:768px){
+  .lap{
+      display: none;
+  }
+  .mobile{
+      display: block;
+  }
+  .for_mobile{
+    padding: 10px;
+  }
+}
+@media only screen and (min-width:768px){
+  .lap{
+      display: block;
+  }
+  .mobile{
+      display: none;
+  }
+  .for_mobile{
+    padding: 50px 0;
+  }
+}
